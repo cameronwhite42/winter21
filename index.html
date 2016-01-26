@@ -1,1 +1,213 @@
-Hello World!
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Crested Duck</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/superhero/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://i.imgur.com/O61XriC.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Crested Duck</h3>
+            <p>I have a funny hat.</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://i.ytimg.com/vi/ZoZkNbIZll8/maxresdefault.jpg" alt="Image">
+          <div class="carousel-caption">
+            <h3>Crested Ducks</h3>
+            <p>We have funny hats.</p>
+          </div>      
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well" >
+      <p>Crested Duck</p>
+    </div>
+    <div class="well">
+       <p>Quack. Quack. Quack.</p>
+    </div>
+    <div class="well">
+       <p>The Crested is a breed of domestic duck. It was probably brought to Europe from the East Indies by Dutch ships. It has its appearance because it is heterozygous for a genetic mutation causing a deformity of the skull.</p>
+    </div>
+  </div>
+</div>
+<hr>
+</div>
+
+<div class="container text-center">    
+  <h3>What We Do</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Domestic-crested-duck-CamdenME.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <img src="http://www.christies.com/lotfinderimages/d53912/melchior_dhondecoeter_a_grey_and_white_crested_goose_a_shoveler_a_musc_d5391261h.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>Crested ducks are seen in seventeenth-century paintings such as those of Melchior d'Hondecoeter and Jan Steen.</p>
+      </div>
+      <div class="well">
+       <p>Crested Ducks like to swim in the water.</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>The offspring of a duck with a crest and a duck with no crest are expected to be 50% with and 50% without a crest.</p>
+      </div>
+      <div class="well">
+       <p>50% are heterozygous for this gene and hatch with a crest of varying sizes.</p>
+      </div>
+    </div>  
+  </div>
+  <hr>
+</div>
+
+<div class="container text-center">    
+  <h3>Our Partners</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="http://www.birdinginformation.com/wp-content/gallery/mallard_duck/mallard-duck-15a.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Partner 1: Mallard Duck</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Hausente.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Partner 2: Pekin Duck</p>    
+    </div>
+    <div class="col-sm-2"> 
+      <img src="http://www.fotothing.com/photos/2a4/2a43d2ce0f9fd4e5e0f5aac9cfad3a04.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Partner 3: Eider Duck</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Runner-ducks.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Partner 4: Indian Runner Duck</p>
+    </div> 
+    <div class="col-sm-2"> 
+      <img src="http://www.holderreadfarm.com/farm%20news/GCfemale.JPG" class="img-responsive" style="width:100%" alt="Image">
+      <p>Partner 5: Golden Cascade Duck</p>
+    </div>     
+    <div class="col-sm-2"> 
+      <img src="http://cdn.backyardchickens.com/3/36/800x600px-LL-36a8352f_call_duck--379877.jpeg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Partner 6: Call Duck</p>
+    </div> 
+  </div>
+</div><br>
+
+
+<div class="container text-center">    
+  <h3>Our Enemies</h3>
+  <br>
+  <div class="row">
+    
+    <div class="col-sm-2"> 
+      <a href="#demo" data-toggle="collapse"><img src="http://a.abcnews.go.com/images/International/GTY_chickens_jef_131018_16x9_992.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+      <div id="demo" class="collapse">
+      <p>Enemy because it ain't a duck.</p>
+      </div>
+      <p>Enemy 1: Chickens</p>    
+    </div>
+    <div class="col-sm-2">
+      <img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/6/17/1371489578534/crowd-of-people-on-London-010.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Enemy 2: Humans</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="http://www.treeandlawncare.com/sites/default/files/siteimages/Canada%20Geese.jpg" style="width:100%" alt="Image">
+      <p>Enemy 3: Geese</p>
+    </div>
+    <div class="col-sm-2"> 
+      <img src="http://vignette2.wikia.nocookie.net/lego/images/7/70/Peasant.jpg/revision/latest?cb=20090919042806" class="img-responsive" style="width:100%" alt="Image">
+      <p>Enemy 4: Peasants</p>
+    </div> 
+    <div class="col-sm-2"> 
+      <img src="http://www.dupageforest.com/uploadedImages/Content/Conservation/DuPage_Plants_and_Wildlife/Amphibians_and_Reptiles/Snakes/Plains-Garter-Snake.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Enemy 5: Snakes</p>
+    </div>     
+    <div class="col-sm-2"> 
+      <img src="http://www.adirondacklifemag.com/blogs/wp-content/uploads/2013/06/snapping-turtle-2-larry-master1.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Enemy 6: Snapping Turtles</p>
+    </div> 
+  </div>
+</div><br>
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
